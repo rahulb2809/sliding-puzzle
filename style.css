@@ -1,0 +1,188 @@
+*{
+    background-color: black;
+    font-family: bahnschrift;
+    font-size: 5vw;
+    color: antiquewhite;
+    user-select: none;
+}
+
+h1{
+    
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: 0rem;
+}
+
+.controls{
+    margin-top: 1%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 1.5%;
+}
+
+.controls div,span{
+    font-size: .4rem;
+}
+
+#new-game{
+    cursor: pointer;
+    font-size: .4rem;
+    border: none;
+    background-color: #262626;
+    border-radius: .2rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    outline: none;
+}
+
+#new-game:hover{
+    background-color: #404040;
+    transition: .2s ease;
+}
+
+.timer, .moves{
+    text-align: center;
+}
+
+
+.dimensions{
+    display: flex;
+    justify-content: space-between;
+}
+
+#by{
+    margin-top: .1rem;
+    padding:.15rem .3rem;
+}
+.dropbtn{
+    font-family: monospace;
+    cursor: pointer;
+    border: none;
+    background-color: #262626;
+    padding: .18rem .27rem;
+    font-size: .5rem;
+}
+
+.dropdown{
+    position: relative;
+    display:block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #404040;
+}
+
+.dropdown-content p{
+    font-family: monospace;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    font-size: .5rem;
+    padding: .1rem .27rem;
+    margin: 0;
+    background-color: #404040;
+}
+
+.dropdown-content p:hover{
+    background-color: #696969;
+    transition: .1s ease;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+    transition: .1s ease;
+}
+
+.dropdown:hover .dropbtn{
+    transition: .1s ease;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+.puzzle-container{
+    position: relative;
+}
+
+.cell{
+    position: absolute;
+    background-color: antiquewhite;
+    color: black;
+    margin: 1%;
+    text-align: center;
+    width:1rem;
+    padding-top: .1rem;
+    border-radius: .2rem;
+    font-size: .7rem;
+    cursor: pointer;
+    transition: .1s ease;
+}
+
+.leaderboard{
+    margin-top: 2.2rem;
+}
+
+.card-box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #444857;
+    padding: 0 .7rem;
+    border-radius: .5rem;
+    
+}
+
+.card p{
+    background-color: #444857;
+    font-size: .7rem;
+    text-align: center;
+    color: #37fd12;
+}
+
+.card span{
+    background-color: #444857;
+    font-size: .35rem;
+}
+
+#subtitle{
+    font-size: .3rem;
+    text-align: center;
+}
+
+#credits{
+    font-size: .2rem;
+    text-align: center;
+    margin-bottom: .3rem;
+}
+
+/*
+.cell{
+    background-color: antiquewhite;
+    color: black;
+    margin: 1%;
+    text-align: center;
+    width:1rem;
+    padding-top: .1rem;
+    border-radius: .2rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+#blank-cell{
+    margin:1%;
+    width:1rem;
+    padding-top: .1rem;
+    border-radius: .2rem;
+    font-size: .7rem;
+    z-index: -10;
+    background-color:blue;
+}*/

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>SLIDING PUZZLE</h1>
+
+    <div class="controls">
+        <button id="new-game">New Game</button>
+
+        
+        <div class="timer">
+            <div class="heading">Time</div>
+            <div id="time_s"><span id="time">0</span> s</div>
+        </div>
+        <div class="moves">
+            <div class="heading">Moves</div>
+            <div id="move-count">0</div>
+        </div>
+
+        <div class="dimensions">
+            <div class="dropdown">
+                <button class="dropbtn" id="rows">4</button>
+                <div class="dropdown-content">
+                    <p class="row-content">3</p>
+                    <p class="row-content">4</p>
+                    <p class="row-content">5</p>
+                    <p class="row-content">6</p>
+                </div>
+            </div>
+
+            <div id="by">BY</div>
+
+            <div class="dropdown">
+                <button class="dropbtn" id="columns">4</button>
+                <div class="dropdown-content">
+                    <p class="col-content">3</p>
+                    <p class="col-content">4</p>
+                    <p class="col-content">5</p>
+                    <p class="col-content">6</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="game">
+        <div id="puzzle-container">
+            
+        </div>
+    </div>
+
+    <h1 class="leaderboard">LEADERBOARDS</h1>
+
+    <p id="subtitle">(Only for square boards)</p>
+    
+    <div class="card-box">
+        <div class="card">
+            <p>
+                3 BY 3 <br>
+                <span>Time:</span> <span id="3-time">0</span> <span>s</span><br>
+                <span>Moves:</span> <span id="3-move">0</span>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                4 BY 4 <br>
+                <span>Time:</span> <span id="4-time">0</span> <span>s</span><br>
+                <span>Moves:</span> <span id="4-move">0</span>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                5 BY 5 <br>
+                <span>Time:</span> <span id="5-time">0</span> <span>s</span><br>
+                <span>Moves:</span> <span id="5-move">0</span>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                6 BY 6<br>
+                <span>Time:</span> <span id="6-time">0</span> <span>s</span><br>
+                <span>Moves:</span> <span id="6-move">0</span>
+            </p>
+        </div>
+
+    </div>
+
+    <p id="credits">
+        Made with ❤ by Rahul. <br> 
+        No part of this code may be used without prior permission.
+    </p>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
