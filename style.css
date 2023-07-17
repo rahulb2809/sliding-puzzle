@@ -73,6 +73,7 @@ h1{
 .dropdown{
     position: relative;
     display:block;
+    z-index: 1000;
 }
 
 .dropdown-content{
